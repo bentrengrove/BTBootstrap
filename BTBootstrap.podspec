@@ -8,17 +8,17 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "KZBootstrap"
-  s.version          = "0.5.1"
+  s.name             = "BTBootstrap"
+  s.version          = "0.1.0"
   s.summary          = "iOS project bootstrap aimed at high quality coding."
   s.description      = <<-DESC
-                       Project bootstrap that provides automatic icon versioning, todo -> warning conversion, warnings while files become too long, build numbering, environment switching/validation and much more.
+                       Project bootstrap that provides automatic icon versioning, todo -> warning conversion`, warnings while files become too long, build numbering, environment switching/validation and much more. Originally created by Krzysztof Zablocki (krzysztof.zablocki@me.com), forked for modification to suit own style.
                        DESC
-  s.homepage         = "https://github.com/krzysztofzablocki/KZBootstrap"
+  s.homepage         = "https://github.com/bentrengrove/BTBootstrap"
   s.license          = 'MIT'
-  s.author           = { "Krzysztof Zablocki" => "krzysztof.zablocki@me.com" }
-  s.source           = { :git => "https://github.com/krzysztofzablocki/KZBootstrap.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/merowing_'
+  s.author           = { "Ben Trengrove" => "ben@nybbles.com.au" }
+  s.source           = { :git => "git@github.com:bentrengrove/BTBootstrap.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/bentrengrove'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
